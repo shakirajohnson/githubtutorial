@@ -1,6 +1,6 @@
 compute = function(input_string) {
   values = unlist(strsplit(input_string, ' '))
-  num0 = as.integer(values[1])
+  num0 = as.numeric(values[1])
   operator = values[2]
   num1 = as.numeric(values[3])
   result = switch(operator,
